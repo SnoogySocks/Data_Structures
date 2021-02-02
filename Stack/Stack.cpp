@@ -53,9 +53,9 @@ int main() {
     
     Stack<int, mxN> s1;
     stack<int> s2;
-    puts("Homemade vs STL Speed Test - Test Size of 10000 Operations");
+    puts("DIY vs STL Speed Test - Test Size of 10000 Operations");
     puts("\nPush");
-    printf("Homemade stack: ");
+    printf("DIY stack: ");
     {
         Benchmarker timer;
         for (int i = 0; i<mxN; ++i) {
@@ -71,7 +71,7 @@ int main() {
     }
 
     puts("\nPop");
-    printf("Homemade stack: ");
+    printf("DIY stack: ");
     {
         Benchmarker timer;
         for (int i = 0; i<mxN; ++i) {
@@ -91,17 +91,17 @@ int main() {
     /*
         Output:
         -----------------------------------------------------------
-        Homemade vs STL Speed Test - Test Size of 10000 Operations
+        DIY vs STL Speed Test - Test Size of 10000 Operations
 
         Push
-        Homemade stack: 276us (0.276ms)
+        DIY stack: 276us (0.276ms)
         STL stack: 13147us (13.147ms)
 
         Pop
-        Homemade stack: 268us (0.268ms)
+        DIY stack: 268us (0.268ms)
         STL stack: 6778us (6.778ms)
         -----------------------------------------------------------
-        Results (Ratio of Homemade to STL)
+        Results (Ratio of DIY to STL)
         Push: ~0.021
         Pop: ~0.040
         
