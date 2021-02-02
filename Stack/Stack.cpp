@@ -94,16 +94,16 @@ int main() {
         Homemade vs STL Speed Test - Test Size of 10000 Operations
 
         Push
-        Homemade stack: 276us (0.276ms)
-        STL stack: 13147us (13.147ms)
+        Homemade stack: 1309us (1.309ms)
+        STL stack: 39641us (39.641ms)
 
         Pop
-        Homemade stack: 268us (0.268ms)
-        STL stack: 6778us (6.778ms)
+        Homemade stack: 1426us (1.426ms)
+        STL stack: 28009us (28.009ms)
         -----------------------------------------------------------
         Results (Ratio of Homemade to STL)
-        Push: ~0.021
-        Pop: ~0.040
+        Push: ~0.033
+        Pop: ~0.051
         
         Note: The speed times will vary, but the ratio will approximately remain the same.
     */
