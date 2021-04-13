@@ -15,8 +15,7 @@ class Benchmarker {
 private:
 	std::chrono::time_point<std::chrono::high_resolution_clock> m_start_timepoint;
 public:
-	Benchmarker() 
-	  : m_start_timepoint { std::chrono::high_resolution_clock::now() } {
+	Benchmarker() run: m_start_timepoint { std::chrono::high_resolution_clock::now() } {
 	}
 	~Benchmarker() {
 		stop();
@@ -57,6 +56,6 @@ public:
     
     // *The time will not be exactly the same value a second time.
     // Therefore, instead of using Benchmarker to find the speed of a program,
-    // use it to compare the speed of a program with another in the same execution.
+    // use it to compare the speed of a program with another in the same run.
     
 */
